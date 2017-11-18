@@ -1,0 +1,23 @@
+{
+  "name": "bongrun/api-proxy6",
+  "description": "Отправка http запросов",
+  "keywords": ["bongrun", "api", "proxy", "proxy6.net"],
+  "homepage": "https://github.com/bongrun/api-proxy6",
+  "type": "project",
+  "license": "Apache License 2.0",
+  "support": {
+    "issues": "https://github.com/bongrun/api-proxy6/issues?state=open",
+    "source": "https://github.com/bongrun/api-proxy6"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "bongrun/curl-adapter": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {"bongrun\\": "src/"}
+  }
+}
