@@ -43,4 +43,8 @@ interface ProxyDataInterface
     public function setDateEnd($dateEnd);
 
     public function setActive($active);
+
+    public function getString():string;
+
+    public function getStringShort():string;
 }
