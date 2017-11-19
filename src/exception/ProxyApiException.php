@@ -1,6 +1,6 @@
 <?php
 
-namespace exception;
+namespace bongrun\exception;
 
 class ProxyApiException extends \Exception
 {

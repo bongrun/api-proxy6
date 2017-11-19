@@ -1,11 +1,11 @@
 <?php
 
-namespace api;
+namespace bongrun\api;
 
-use adapter\CurlAdapter;
-use exception\ProxyApiException;
-use interfaces\ProxyAccessInstance;
-use interfaces\ProxyDataInterface;
+use bongrun\adapter\CurlAdapter;
+use bongrun\exception\ProxyApiException;
+use bongrun\interfaces\ProxyAccessInstance;
+use bongrun\interfaces\ProxyDataInterface;
 
 class Proxy6
 {

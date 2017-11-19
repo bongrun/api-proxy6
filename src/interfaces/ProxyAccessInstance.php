@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace bongrun\interfaces;
 
 /**
  * Доступ для подключения к proxy6.net

@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace bongrun\interfaces;
 
 /**
  * Interface ProxyInterface
